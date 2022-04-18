@@ -7,31 +7,55 @@
   
 }
 
+.main {
+  display:flex;
+}
+
 
 .brassKnuckle {
-  width:340px;
-  height: 40px;
-  color: red;
-  transform: rotate(135deg);
-  position: fixed;
-  margin-left: 102px;
-  margin-top: 5px;
+ 
   
 }
 
+.knuckle {
+  width: 50px;
+  height: 50px;
+  transform: rotate(137deg);
+  margin-top: 23px;
+}
+
 .logo1 {
-  margin-right: 20px;
+  margin-right: 8px;
+  
+}
+
+.logo2 {
+  margin-right: -8px;
+}
+
+.logo3 {
+  margin-left: -10px;
+}
+
+.secondItem {
+  display: flex;
 }
 
 @media (max-width: 768px) {
   .logo1 {
-    
+    margin-bottom: -20px;
     max-width: 250px;
     text-align: center;
   }
 
+  .secondItem {
+    margin-left: 10px;
+  }
   .brassKnuckle {
     margin-top: 49px;
     margin-left: -68px;
+  }
+  .main {
+    flex-direction: column;
   }
 }

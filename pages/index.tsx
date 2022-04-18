@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import {GiBrassKnuckles} from 'react-icons/gi'
+import knuckles from '../public/knuckles-red.png'
 
 const Home: NextPage = () => {
   return (
@@ -14,8 +15,22 @@ const Home: NextPage = () => {
       </Head>
       
       
-      <h1 className={styles.logo1}>Добро пожаловать в Но &nbsp; осибирск.</h1>
-      <GiBrassKnuckles className={styles.brassKnuckle}/>
+      <div className={styles.main}>
+        <div>
+          <h1 className={styles.logo1}>Добро пожаловать в</h1>
+        </div>
+         <div className={styles.secondItem}>
+            <h1 className={styles.logo2}>Но</h1>
+            <div className={styles.knuckle}>
+             <Image className={styles.brassKnuckle} src={knuckles} alt='knuckles'/>
+            </div>
+            <h1 className={styles.logo3}>осибирск.</h1>
+         </div>
+      </div>
+
+       
+
+      {/* <GiBrassKnuckles className={styles.brassKnuckle}/> */}
     </div>
   )
 }
