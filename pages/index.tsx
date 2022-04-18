@@ -14,8 +14,8 @@ const Home: NextPage = () => {
       </Head>
       
       
-      <h1 className={styles.logo1}>Добро пожаловать в Но</h1> <GiBrassKnuckles className={styles.brassKnuckle}/>
-      <h1>осибирск.</h1>
+      <h1 className={styles.logo1}>Добро пожаловать в Но &nbsp; осибирск.</h1>
+      <GiBrassKnuckles className={styles.brassKnuckle}/>
     </div>
   )
 }
