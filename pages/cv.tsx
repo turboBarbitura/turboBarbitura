@@ -1,6 +1,6 @@
 import {NextPage} from 'next';
 import React from 'react';
-import styles from '../styles/Cv.module.scss';
+import styles from '../styles/Components/CV/Cv.module.scss';
 import CvSideBar from '../components/CV/CvSideBar';
 import CvBody from '../components/CV/CvBody';
 import Head from "next/head";

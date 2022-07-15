@@ -2,6 +2,31 @@ import { AiFillHome, AiFillPhone, AiFillMail, AiFillGithub } from 'react-icons/a
 import { BsFillPersonFill } from 'react-icons/bs';
 import { FaTelegram } from 'react-icons/fa';
 
+
+//Получение актуального возраста
+const getAge = require('get-age')
+let currentAge = getAge('1986-05-06')
+
+//Склонение возраста
+function declinationAge(age) {
+  let caseAge;
+  let count = age % 100;
+  if (count >= 5 && count <= 20) {
+    caseAge = 'лет';
+  } else {
+    count = count % 10;
+    if (count === 1) {
+      caseAge = 'год';
+    } else if (count >= 2 && count <= 4) {
+      caseAge = 'года';
+    } else {
+      caseAge = 'лет';
+    }
+  }
+  return caseAge;
+}
+
+
 export const hardSkills = [
   'HTML5',
   'CSS3',
@@ -19,10 +44,12 @@ export const hardSkills = [
   'WebPack',
 ];
 
+
+
 export const contacts = [
   {
     ico: <BsFillPersonFill />,
-    description: `${new Date().getFullYear() - 1986} лет`,
+    description: `${currentAge} ${declinationAge(currentAge)}`,
   },
   {
     href: 'https://yandex.ru/maps/-/CCUFYUtbgB',

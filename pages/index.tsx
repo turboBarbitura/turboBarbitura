@@ -1,8 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import { GiBrassKnuckles } from 'react-icons/gi'
+import styles from '../styles/Home.module.scss'
+
 import knuckles from '../public/knuckles-red.png'
 
 const Home: NextPage = () => {
@@ -27,7 +27,7 @@ const Home: NextPage = () => {
         </div>
       </div>
 
-      {/* <GiBrassKnuckles className={styles.brassKnuckle}/> */}
+
     </div>
   )
 }
