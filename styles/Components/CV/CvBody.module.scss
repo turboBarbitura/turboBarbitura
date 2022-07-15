@@ -1,0 +1,32 @@
+.body {
+  width: 100%;
+  background-color: var(--gray);
+
+  .content {
+
+    margin: 30px 20px;
+
+
+    .summaryBlock {
+
+      display: flex;
+      margin-bottom: 50px;
+
+      .decoration {
+        min-width: 3px;
+        min-height: 100%;
+        margin-top: 20px;
+        background-color: var(--primary);
+
+
+      }
+      .description {
+        padding-left: 25px;
+
+      }
+    }
+  }
+
+}
+
+
