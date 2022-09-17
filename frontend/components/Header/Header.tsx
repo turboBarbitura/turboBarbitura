@@ -16,8 +16,12 @@ const Header = () => {
                 </Link>
                 <nav>
                     <ul className={styles.navItems}>
+                        <Link href='/admin'><li>Админка</li></Link>
                         <Link href='/cv'><li>Резюме</li></Link>
                         <Link href='/about'><li>Об авторе</li></Link>
+                        <Link href='/register'><li>Создать аккаунт</li></Link>
+                        <Link href='/login'><li className={styles.login}>Войти</li></Link>
+
 
                     </ul>
 

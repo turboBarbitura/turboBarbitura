@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "date-format": "^4.0.11",
     "get-age": "^1.0.1",
+    "jspdf": "^2.5.1",
     "next": "12.1.5",
     "react": "18.0.0",
     "react-dom": "18.0.0",

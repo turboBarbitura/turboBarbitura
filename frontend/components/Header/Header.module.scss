@@ -34,8 +34,20 @@
 
 .navItems {
     display: flex;
+    align-items: center;
     list-style-type: none;
 
+    .login {
+        background: var(--graphite);
+        color: white;
+        padding: 5px 7px;
+        border-radius: 5px;
+
+        &:hover {
+            background: white;
+            color: var(--graphite);
+        }
+    }
 }
 
 .navItems li {
