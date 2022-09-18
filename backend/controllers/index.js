@@ -1,1 +1,0 @@
-export * as SkillController from './SkillController.js'
