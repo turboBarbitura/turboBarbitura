@@ -4,27 +4,44 @@
 
   .content {
 
-    margin: 30px 20px;
+	margin: 30px 20px;
 
+	.summaryBlock {
 
-    .summaryBlock {
+	  display: flex;
+	  margin-bottom: 50px;
 
-      display: flex;
-      margin-bottom: 50px;
+	  .decoration {
+		min-width: 3px;
+		min-height: 100%;
+		margin-top: 20px;
+		background-color: var(--primary);
+	  }
 
-      .decoration {
-        min-width: 3px;
-        min-height: 100%;
-        margin-top: 20px;
-        background-color: var(--primary);
+	  .description {
+		padding-left: 25px;
 
+		.descriptionWithImageBlock {
+		  display: flex;
+		  margin-bottom: 0;
 
-      }
-      .description {
-        padding-left: 25px;
+		  .descriptionWithImage {
+			li {
+			  margin-left: 10px;
+			}
+		  }
 
-      }
-    }
+		  .descriptionImage {
+			display: none;
+			width: 200px;
+			height: 180px;
+			//border-radius: 15px;
+			overflow: hidden;
+            margin-left: 10px;
+		  }
+		}
+	  }
+	}
   }
 
 }

@@ -28,20 +28,16 @@ function declinationAge(age) {
 
 
 export const hardSkills = [
-  'HTML5',
-  'CSS3',
+  'HTML5/CSS3',
   'SASS/SCSS',
   'Responsive Design',
-  'Bootstrap',
-  'Tailwind',
+  'Bootstrap/Tailwind',
   'JavaScript / ES6+',
   'TypeScript',
-  'React',
-  'Redux',
-  'Redux Saga/Toolkit',
-  'Next JS',
-  'Node JS',
-  'WebPack',
+  'React/Next JS',
+  'Redux/Toolkit',
+  'Node JS (Basic)',
+  'WebPack (Basic)',
 ];
 
 

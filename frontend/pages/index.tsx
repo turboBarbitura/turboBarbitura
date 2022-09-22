@@ -17,6 +17,7 @@ const Home: NextPage = () => {
       <div className={styles.main}>
         <div>
           <h1 className={styles.logo}>Добро пожаловать в Но &nbsp;&nbsp; осибирск.</h1>
+          <p className={styles.description}>На данный момент сайт находится в разработке... </p>
         </div>
         <div className={styles.knuckle}>
           <Image

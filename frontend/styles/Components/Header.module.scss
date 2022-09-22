@@ -1,0 +1,124 @@
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #8de5bd;
+    z-index: 999;
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 1000px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+
+        .knuckle {
+            height: 30px;
+            width: 30px;
+            display: none;
+
+
+            @media (max-width: 768px) {
+                display: block;
+            }
+        }
+
+        cursor: pointer;
+
+        h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 24px;
+            color: var(--graphite);
+            @media (max-width: 768px) {
+                display:none;
+            }
+        }
+
+        p {
+            margin: 0 0 0 63px;
+            padding: 0;
+            color: gray;
+
+            @media (max-width: 768px) {
+                display:none;
+            }
+
+        }
+        .logoTitle {
+            margin: 0;
+        }
+    }
+
+
+    @media (max-width: 1040px) {
+        padding: 0 15px;
+    }
+}
+
+
+
+
+
+.navItems {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+
+    button {
+        border: none;
+        padding: 8px 10px;
+        border-radius: 5px;
+        background-color: var(--graphite);
+        color: #fdfdfd;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+
+        @media (max-width: 400px) {
+            font-size: 14px;
+        }
+
+        a {
+            color: #fdfdfd;
+            &:hover {
+                color: var(--primary)
+            }
+        }
+        &:hover {
+            color: var(--primary);
+
+        }
+    }
+
+    .login {
+        background: var(--graphite);
+        color: white;
+        padding: 5px 7px;
+        border-radius: 5px;
+
+        &:hover {
+            background: white;
+            color: var(--graphite);
+        }
+    }
+}
+
+.navItems li {
+    margin-left: 15px;
+    cursor: pointer;
+    color: gray;
+
+
+}
+
+.navItems li:hover {
+    color: var(--graphite)
+
+
+}

@@ -9,6 +9,11 @@
 .main {
   display: flex;
   position: relative;
+
+  .description {
+    text-align: center;
+    color: gray;
+  }
 }
 
 .knuckle {

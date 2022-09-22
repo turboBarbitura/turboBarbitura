@@ -5,7 +5,7 @@ import Contact from "../UI/contacts/Contact";
 const Footer = () => {
   return (
     <div className={styles.footer}>
-      <Contact description='Сайт создан с целью ознакомительной информации'/>
+      <Contact description='© Михаил Щукин'/>
     </div>
   )
 }
