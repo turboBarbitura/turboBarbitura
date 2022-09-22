@@ -36,6 +36,7 @@ export const hardSkills = [
   'TypeScript',
   'React/Next JS',
   'Redux/Toolkit',
+  'Git/Github',
   'Node JS (Basic)',
   'WebPack (Basic)',
 ];
